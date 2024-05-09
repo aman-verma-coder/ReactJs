@@ -1,6 +1,7 @@
 import './App.css';
 import Title from './Title.jsx'; //Import-Export
 import {Intro1, Intro2} from './Intro.jsx'; //Import-Export
+import Sum from './JSXwithCurlyBraces.jsx';
 
 //62.6 Our first component
 
@@ -16,6 +17,7 @@ function App () {
       <Description />
       <Intro1 />
       <Intro2 />
+      <Sum/>
       <button>Click Me!</button>
       </>
   );
