@@ -10,14 +10,14 @@ function Description () {
 
 function App () {
   return (
-    <div>
+    <>
       <Title />
       <Description />
       <Description />
       <Intro1 />
       <Intro2 />
       <button>Click Me!</button>
-    </div>
+      </>
   );
 }
 
