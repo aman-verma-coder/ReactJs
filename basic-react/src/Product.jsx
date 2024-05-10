@@ -6,8 +6,9 @@ function Product({title, price, features}) {
   return (
     <div className="Product">
       <h4>{title}</h4>
-      <p>Price: ₹{price}</p>
       <p>Feature: {list}</p>
+      <p>Price: ₹{price}</p>
+      {price > 5000 ? <p>Discounted Price: ₹{price - price * 0.1}</p> : <a href='/'>Get Discount</a>}
       {/* <p>Features: {features2}</p> */}
     </div>
   );
