@@ -3,6 +3,7 @@ import './App.css';
 // import {Intro1, Intro2} from './Intro.jsx'; //Import-Export
 // import Sum from './JSXwithCurlyBraces.jsx';
 import ProductCombined from './ProductCombined.jsx';
+import Msgbox from './Msgbox.jsx';
 
 //62.6 Our first component
 
@@ -21,6 +22,7 @@ function App () {
       <Sum/>
       <button>Click Me!</button>  */}
       <ProductCombined />
+      <Msgbox username={'Aman'} textcolor={'green'}/>
       </>
   );
 }
